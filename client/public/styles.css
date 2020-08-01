@@ -1,0 +1,58 @@
+html,
+body, div#root {
+  height: 100%;
+  width: 100%;
+}
+
+.reddin {
+  background-color: #c0392b !important;
+  border: none !important;
+  font-weight: bold !important;
+  padding: 1em !important;
+}
+.reddin:hover {
+  background-color: #e74c3c !important;
+  transition: 0.25s;
+}
+
+.home-cta {
+  background: url('./background.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  flex-direction: column;
+}
+
+.home-cta > h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Knewave', cursive;
+}
+
+.form-inline {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.form-inline > .delete {
+  border: none;
+  background: none;
+  color: #007bff;
+  margin: 0;
+  padding: 0;
+}
+
+.form-inline > .delete:hover {
+  color: #0056b3;
+}
